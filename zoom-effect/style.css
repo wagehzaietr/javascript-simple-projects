@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #1f1f1f;
+}
+
+#container{
+  height: 800px;
+  width: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+img {
+  transform-origin: center center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
