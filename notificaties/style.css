@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+button {
+  background-color: rebeccapurple;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+}
+
+#container{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.toast {
+  padding: 2rem;
+  background-color: rebeccapurple;
+  margin: 1rem;
+  color: rgb(255, 255, 255);
+}

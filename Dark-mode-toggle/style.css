@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+button{
+  padding: 1rem;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  background-color: rebeccapurple;
+  box-shadow: 0 0 10px black;
+  color: white;
+  border-radius: 10px;
+}
